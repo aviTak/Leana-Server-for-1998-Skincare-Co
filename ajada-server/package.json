@@ -1,0 +1,38 @@
+{
+  "name": "Leana",
+  "version": "1.0.0",
+  "description": "Leana Server",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "faker": "^4.1.0",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.26",
+    "nodemailer": "^6.4.10",
+    "paypal-rest-sdk": "^1.8.1",
+    "@paypal/checkout-server-sdk": "^1.0.2",
+    "validator": "^13.1.1",
+    "lodash": "^4.17.19",
+    "graphql-date": "^1.0.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "Avi Takiyar",
+  "license": "ISC",
+  "keywords": [
+    "Leana",
+    "CMS",
+    "Avi Takiyar"
+  ]
+}
